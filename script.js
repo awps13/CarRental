@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const carList = document.getElementById("car-list");
   const menuToggle = document.getElementById("menuToggle");
   const sidebar = document.getElementById("sidebar");
-  const whatsappNumber = "6282257824800";
+  const whatsappNumber = "6288217865354";
 
   // Toggle sidebar on mobile
   menuToggle.addEventListener("click", () => {
