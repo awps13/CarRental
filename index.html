@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Layanan Rental Mobil</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <button class="menu-toggle" id="menuToggle">
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <nav id="sidebar">
+      <div class="logo">
+        <i class="fas fa-car"></i>
+        <div>RentalMobil</div>
+      </div>
+      <ul class="nav-links">
+        <li>
+          <a href="#home"><i class="fas fa-home"></i> Beranda</a>
+        </li>
+        <li>
+          <a href="#cars"><i class="fas fa-car-side"></i> Mobil</a>
+        </li>
+        <li>
+          <a href="#address"><i class="fas fa-map-marker-alt"></i> Alamat</a>
+        </li>
+        <li>
+          <a href="#contact"><i class="fas fa-envelope"></i> Kontak</a>
+        </li>
+      </ul>
+    </nav>
+
+    <section id="home">
+      <div class="hero fade-in">
+        <h1>Layanan Rental Mobil Premium</h1>
+        <p>Rasakan kenyamanan dan kemewahan dengan armada premium kami</p>
+      </div>
+    </section>
+
+    <section id="cars">
+      <h2 class="fade-in">Armada Kami</h2>
+      <div class="car-grid" id="car-list">
+        <!-- Cars will be populated here by JavaScript -->
+      </div>
+    </section>
+
+    <section id="address">
+      <h2 class="fade-in">Lokasi Kami</h2>
+      <div class="address-content slide-in-left">
+        <p>Jalan Rental Mobil No. 123</p>
+        <p>Kawasan Pusat Kota</p>
+        <p>Jakarta, Indonesia 12345</p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2 class="fade-in">Hubungi Kami</h2>
+      <div class="contact-content slide-in-right">
+        <p>Email: info@rentalmobil.com</p>
+        <p>Telepon: (021) 234 567 890</p>
+        <p>Jam Kerja: Senin-Sabtu, 09.00-18.00 WIB</p>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 RentalMobil. Hak cipta dilindungi undang-undang.</p>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
