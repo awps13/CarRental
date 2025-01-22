@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const carList = document.getElementById("car-list");
   const menuToggle = document.getElementById("menuToggle");
   const sidebar = document.getElementById("sidebar");
-  const whatsappNumber = "6281234567890"; // Ganti dengan nomor WhatsApp Anda
+  const whatsappNumber = "6282257824800";
 
   // Toggle sidebar on mobile
   menuToggle.addEventListener("click", () => {
