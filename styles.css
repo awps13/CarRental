@@ -279,6 +279,10 @@ footer {
 
     }
 
+    .maps {
+        margin: 2rem 0rem;
+    }
+
     .nav-links {
         display: block;
     }
