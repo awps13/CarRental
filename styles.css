@@ -1,5 +1,5 @@
 :root {
-    --primary-blue: #0066cc;
+    --primary-blue: #011d3a;
     --text-black: #333333;
     --bg-white: #ffffff;
     --sidebar-width: 250px;
@@ -98,6 +98,7 @@ section {
     justify-content: center;
     text-align: center;
     color: var(--bg-white);
+    /* height: 100vh; */
 }
 
 .hero h1 {
@@ -199,6 +200,10 @@ h2 {
     margin: 0 auto;
 }
 
+.address-content {
+    /* margin-bottom: 2rem; */
+}
+
 /* Footer */
 footer {
     background-color: var(--text-black);
@@ -277,4 +282,5 @@ footer {
     .nav-links {
         display: block;
     }
+
 }

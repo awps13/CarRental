@@ -9,37 +9,40 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     />
+    <!-- My Animate -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
   </head>
   <body>
     <button class="menu-toggle" id="menuToggle">
       <i class="fas fa-bars"></i>
     </button>
 
-    <div class="tes">
-      <nav id="sidebar">
-        <div class="logo">
-          <i class="fas fa-car"></i>
-          <div>RentalMobil</div>
-        </div>
-        <ul class="nav-links">
-          <li>
-            <a href="#home"><i class="fas fa-home"></i> Beranda</a>
-          </li>
-          <li>
-            <a href="#cars"><i class="fas fa-car-side"></i> Mobil</a>
-          </li>
-          <li>
-            <a href="#address"><i class="fas fa-map-marker-alt"></i> Alamat</a>
-          </li>
-          <li>
-            <a href="#contact"><i class="fas fa-envelope"></i> Kontak</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
+    <nav id="sidebar" class="animate__animated animate__fadeIn">
+      <div class="logo">
+        <i class="fas fa-car"></i>
+        <div>RentalMobil</div>
+      </div>
+      <ul class="nav-links">
+        <li>
+          <a href="#home"><i class="fas fa-home"></i> Beranda</a>
+        </li>
+        <li>
+          <a href="#cars"><i class="fas fa-car-side"></i> Mobil</a>
+        </li>
+        <li>
+          <a href="#address"><i class="fas fa-map-marker-alt"></i> Alamat</a>
+        </li>
+        <li>
+          <a href="#contact"><i class="fas fa-envelope"></i> Kontak</a>
+        </li>
+      </ul>
+    </nav>
 
     <section id="home">
-      <div class="hero fade-in">
+      <div class="hero fade-in animate__animated animate__fadeIn">
         <h1>Layanan Rental Mobil Premium</h1>
         <p>Rasakan kenyamanan dan kemewahan dengan armada premium kami</p>
       </div>
@@ -55,10 +58,11 @@
     <section id="address">
       <h2 class="fade-in">Lokasi Kami</h2>
       <div class="address-content slide-in-left">
-        <p>Jalan Rental Mobil No. 123</p>
-        <p>Kawasan Pusat Kota</p>
-        <p>Jakarta, Indonesia 12345</p>
+        <p>Jalan Sukapura No.119</p>
+        <p>Samaan, Klojen</p>
+        <p>Malang, Jawa Timur 65112</p>
       </div>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d246.95855371177413!2d112.62901143048592!3d-7.964096726317116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd6282d00a8809b%3A0xa36cb168af36ef58!2sJl.%20Sukapura%20No.119%2C%20Samaan%2C%20Kec.%20Klojen%2C%20Kota%20Malang%2C%20Jawa%20Timur%2065112!5e0!3m2!1sid!2sid!4v1737634980796!5m2!1sid!2sid" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </section>
 
     <section id="contact">
