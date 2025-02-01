@@ -293,6 +293,9 @@ footer {
 
     #address {
         margin: 0rem;
-        padding-top: 2rem;
+    }
+
+    iframe {
+        padding: 2rem 0rem;
     }
 }
