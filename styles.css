@@ -200,10 +200,6 @@ h2 {
     margin: 0 auto;
 }
 
-.address-content {
-    /* margin-bottom: 2rem; */
-}
-
 /* Footer */
 footer {
     background-color: var(--text-black);
@@ -281,10 +277,30 @@ footer {
 
     #cars {
         padding-bottom: 0rem;
+        h2 {
+            margin-bottom: 0rem;
+        }
+    }
+
+    .car-card {
+        padding: 1rem 2rem;
     }
 
     .maps {
         margin: 0rem 0rem;
+    }
+
+    .bawah_alamat {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 2rem 0rem;
+        gap: 2rem;
+    }
+
+    .isi_bawah_alamat {
+        padding: 1rem;
+        border-radius: 2rem;
     }
 
     .nav-links {
@@ -293,9 +309,58 @@ footer {
 
     #address {
         margin: 0rem;
+        padding: 1rem 2rem;
     }
 
     iframe {
         padding: 2rem 0rem;
+    }
+
+#contact {
+    padding: 2rem;
+    h2 {
+        margin-bottom: 1rem;
+    }
+}
+
+    .instagram {
+        width: 13rem;
+        height: 13rem;
+        margin: 2rem auto;
+        padding: 2rem 0rem;
+        background: rgb(163, 19, 136);
+        background: linear-gradient(90deg, rgba(163, 19, 136, 1) 0%, rgba(255, 177, 8, 1) 50%, rgba(255, 0, 91, 1) 100%);
+        color: white;
+        border-radius: 2rem;
+        box-shadow: 0 20px 15px rgba(0, 0, 0, 0.5);
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        i {
+            font-size: 7rem;
+        }
+    }
+
+    .whatsapp {
+        width: 13rem;
+        height: 13rem;
+        margin: 2rem auto;
+        padding: 2rem 0rem;
+        background: #25D366;
+        color: white;
+        border-radius: 2rem;
+        box-shadow: 0 20px 15px rgba(0, 0, 0, 0.5);
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        i {
+            font-size: 7rem;
+        }
     }
 }
